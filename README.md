@@ -1,9 +1,5 @@
 Este projeto em C++ utiliza **pthreads** para processar uma base de dados de dispositivos IoT, calculando mensalmente os valores **mínimo**, **médio** e **máximo** de diferentes sensores por dispositivo.
 
-## 📁 Estrutura de Pastas
-
-<pre> ``` iot_pthreads/ ├── data/ │ └── devices.csv # Base de dados ├── output/ │ └── resultado.csv # Arquivo gerado após o processamento ├── src/ │ └── main.cpp # Código fonte principal ├── Makefile # Script de compilação ├── run.sh # Script de execução ``` </pre>
-
 ## ⚙️ Requisitos
 
 - Linux com suporte a pthreads
